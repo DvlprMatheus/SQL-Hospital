@@ -13,3 +13,7 @@ Para ajudar nas tarefas diárias da área clínica, foi feito o planejamento de 
 Os pacientes também são cadastrados contendo dados pessoais (nome, data de nascimento, endereço, telefone e e-mail), documentos (CPF e RG) e o convênio, que é separado para cada nome, CNPJ e tempo de carência de cada paciente.
 
 Por fim, as consultas são registradas com data e hora de realização, médico responsável, paciente, valor da consulta e a especialidade buscada pelo paciente. Logo após esta realização, será disponibilizada a receita de medicamentos que contém os medicamentos, a quantidade e as instruções de uso.
+
+<div align=center>
+  <img src="https://github.com/DvlprMatheus/SQL-Hospital/assets/125493286/f1feab9c-9de3-4d90-8594-54a3458ef325" alt="Hospital Model">
+</div>
