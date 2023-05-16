@@ -33,3 +33,22 @@ E com isso, faça a ligação do diagrama acima ao diagrama desenvolvido na seç
 <div align=center>
   <img src="https://github.com/DvlprMatheus/SQL-Hospital/assets/125493286/bff7fecc-de33-41c8-a028-a9671bf7ab94" alt="Hospital Model2">
 </div>
+
+# Parte 3
+
+Nessa parte, nós iremos construir o sistema realizado no último diagrama, enquanto corrige alguns erros que podem ter sido cometidos na parte conceitual. E para isso, você pode utilizar o MySQL Workbench ou UwAmp (phpMyAdmin), que são os softwares mais utilizados para trabalhar com banco. Após abrir o programa, comece criando todas as entidades e fazendo as relações corretamente, quando finalizar, para transferir os dados você irá seguir esta lista:
+
+- Inclua ao menos dez médicos de diferentes especialidades.
+- Ao menos sete especialidades (considere a afirmação de que “entre as especialidades há pediatria, clínica geral, gastrenterologia e dermatologia”).
+- Inclua ao menos 15 pacientes.
+- Registre 20 consultas de diferentes pacientes e diferentes médicos (alguns pacientes realizam mais que uma consulta). As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022. Ao menos dez consultas devem ter receituário com dois ou mais medicamentos.
+- Inclua ao menos quatro convênios médicos, associe ao menos cinco pacientes.
+- Criar entidade de relacionamento entre médico e especialidade.
+- Criar Entidade de relacionamento entre internação e enfermeiro.
+- Arrumar a chave estrangeira do relacionamento entre convênio e médico.
+- Criar entidade entre internação e enfermeiro.
+- Colocar chaves estrangeira dentro da internação (Chaves Médico e Paciente).
+- Registre ao menos sete internações. Pelo menos dois pacientes devem ter se internado mais de uma vez. Ao menos três quartos devem ser cadastrados. As internações devem ter ocorrido entre 01/01/2015 e 01/01/2022.
+- Considerando que “a princípio o hospital trabalha com apartamentos, quartos duplos e enfermaria”, inclua ao menos esses três tipos com valores diferentes.
+- Inclua dados de dez profissionais de enfermaria. Associe cada internação a ao menos um enfermeiro(a).
+- Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
