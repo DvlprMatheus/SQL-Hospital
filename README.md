@@ -4,8 +4,9 @@ Neste projeto, o meu objetivo foi criar um banco de dados eficiente e seguro par
 
 ## Sumário
 
-- [Consultas ⭐️](#parte-1)
-- [Internações 🌻](#parte-2)
+- [Conceitual (Simples) ⭐️](#parte-1)
+- [Conceitual (Avançado) 🌻](#parte-2)
+- [Alimentando o Banco ⭐️](#parte-3)
 
 ## Parte 1
 
