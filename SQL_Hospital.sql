@@ -302,3 +302,15 @@ INSERT INTO internacao(entrada_internacao, prev_alta_internacao, saida_internaca
 INSERT INTO internacao(entrada_internacao, prev_alta_internacao, saida_internacao, procedimentos_internacao, paciente_id, medico_id, quarto_id, enfermeiro_id) VALUES ('2019-09-30', '2019-10-19', '2020-01-06', 'Admissão, Avaliação, Acomodação, Exames e Tratamento', 2, 10, 7, 6);
 INSERT INTO internacao(entrada_internacao, prev_alta_internacao, saida_internacao, procedimentos_internacao, paciente_id, medico_id, quarto_id, enfermeiro_id) VALUES ('2020-10-31', '2021-11-15', '2021-12-03', 'Admissão, Avaliação, Acomodação, Exames e Tratamento', 6, 2, 2, 4);
 INSERT INTO internacao(entrada_internacao, prev_alta_internacao, saida_internacao, procedimentos_internacao, paciente_id, medico_id, quarto_id, enfermeiro_id) VALUES ('2021-11-18', '2021-12-29', '2022-01-01', 'Admissão, Avaliação, Acomodação, Exames e Tratamento', 13, 5, 5, 9);
+
+ALTER TABLE medico ADD atividade_medico VARCHAR(20);
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Sofia Oliveira';
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Lucas Santos';
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Isabella Costa';
+UPDATE medico SET atividade_medico = 'Inativo' WHERE nome_medico = 'Pedro Almeida';
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Carolina Pereira';
+UPDATE medico SET atividade_medico = 'Inativo' WHERE nome_medico = 'Gabriel Fernandes';
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Laura Rodrigues';
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Rafaela Silva';
+UPDATE medico SET atividade_medico = 'Ativo' WHERE nome_medico = 'Matheus Sousa';
+UPDATE medico SET atividade_medico = 'Inativo' WHERE nome_medico = 'Beatriz Carvalho';
