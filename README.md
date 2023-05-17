@@ -7,6 +7,7 @@ Neste projeto, o meu objetivo foi criar um banco de dados eficiente e seguro par
 - [Conceitual (Simples) ⭐️](#parte-1)
 - [Conceitual (Avançado) 🌻](#parte-2)
 - [Alimentando o Banco ⭐️](#parte-3)
+- [Alterando o Banco 🌻](#parte-4)
 
 ## Parte 1
 
@@ -35,7 +36,7 @@ E com isso, faça a ligação do diagrama acima ao diagrama desenvolvido na seç
   <img src="https://github.com/DvlprMatheus/SQL-Hospital/assets/125493286/bff7fecc-de33-41c8-a028-a9671bf7ab94" alt="Hospital Model2">
 </div>
 
-# Parte 3
+## Parte 3
 
 Nessa parte, nós iremos construir o sistema realizado no último diagrama, enquanto corrige alguns erros que podem ter sido cometidos na parte conceitual. E para isso, você pode utilizar o MySQL Workbench ou UwAmp (phpMyAdmin), que são os softwares mais utilizados para trabalhar com banco. Após abrir o programa, comece criando todas as entidades e fazendo as relações corretamente, quando finalizar, para transferir os dados você irá seguir esta lista:
 
@@ -53,3 +54,16 @@ Nessa parte, nós iremos construir o sistema realizado no último diagrama, enqu
 - Considerando que “a princípio o hospital trabalha com apartamentos, quartos duplos e enfermaria”, inclua ao menos esses três tipos com valores diferentes.
 - Inclua dados de dez profissionais de enfermaria. Associe cada internação a ao menos um enfermeiro(a).
 - Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
+
+## Parte 4
+
+Agora, como já modelamos e criamos o físico, vamos fazer alterações e atualizações no nosso projeto utilizando alguns códigos e entre eles:
+
+- Crie um script onde você irá adicionar para os médicos a coluna "em_atividade" ou algo do gênero. Você pode utilizar o "ALTER TABLE nome_tabela ADD nome_coluna datatype" para fazer esta criação.
+- Logo após, crie outro script que define os valores colocando "inativo" em pelo menos dois médicos e "ativo" nos demais.
+
+Segue abaixo o modelo:
+
+<div align=center>
+  <img src="https://github.com/DvlprMatheus/JavaScript/assets/125493286/c7901182-05e5-454c-b3af-29154da66d34" alt="Hospital Model2">
+</div>
