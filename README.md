@@ -1,13 +1,18 @@
-# <div align=center> Como Criar um Banco de Dados de um Hospital? </div>
+# Hospital Database Management System
 
-Neste projeto, o meu objetivo foi criar um banco de dados eficiente e seguro para armazenar informações relevantes de pacientes, médicos e interações de um hospital. Será utilizado a linguagem SQL desde o Diagrama ER (entidade-relacionamento), que me ajudou a visualizar as relações entre as diferentes entidades do banco de dados, até a sua própria criação.
+O Hospital Database Management System é um projeto dedicado à criação de um banco de dados eficiente e seguro para armazenar informações vitais de pacientes, médicos e interações dentro de um ambiente hospitalar. Desde o desenvolvimento do Diagrama de Entidade-Relacionamento (ER) até a implementação do banco de dados em SQL, este projeto visa oferecer uma solução abrangente e bem-estruturada para as necessidades de gerenciamento de dados de um hospital.
+
+## Objetivo do Projeto:
+
+O principal objetivo deste projeto é fornecer uma plataforma robusta para o armazenamento e gerenciamento de informações críticas em um ambiente hospitalar. O banco de dados resultante é projetado para ser eficiente, seguro e altamente escalável, capaz de lidar com grandes volumes de dados enquanto mantém a integridade e a confidencialidade dos registros dos pacientes e outras informações sensíveis.
 
 ## Sumário
 
-- [Conceitual (Simples) ⭐️](#parte-1)
-- [Conceitual (Avançado) 🌻](#parte-2)
-- [Alimentando o Banco ⭐️](#parte-3)
-- [Alterando o Banco 🌻](#parte-4)
+- [Simples](#parte-1)
+- [Avançado](#parte-2)
+- [Alimentação](#parte-3)
+- [Alterações](#parte-4)
+- [Licença](#licença)
 
 ## Parte 1
 
@@ -67,3 +72,7 @@ Segue abaixo o modelo:
 <div align=center>
   <img src="https://github.com/DvlprMatheus/JavaScript/assets/125493286/c7901182-05e5-454c-b3af-29154da66d34" alt="Hospital Model2">
 </div>
+
+## Licença
+
+MIT License que permite que o software seja tratato sem restrições para o uso, modificação e distribuição.
